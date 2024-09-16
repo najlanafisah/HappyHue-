@@ -30,8 +30,6 @@ a {
 }
 
 .custom-hero-desc h1 {
-    font-size: 100px;
-    font-weight: 650;
     margin-top: 150px;
 }
 
@@ -157,7 +155,6 @@ a {
     border-radius: 20px;
     padding: 5px 25px;
 }
-
 .costome-card-title-1 {
     color: #B09500;
     font-size: 24px;
@@ -196,6 +193,7 @@ a {
     padding: 5px 25px;
 }
 
+
 .costome-card-title-3 {
     color: #00A5D9;
     font-size: 24px;
@@ -207,11 +205,10 @@ a {
     font-size: 16px;
     font-weight: 400;
 }
-
 .custome-all-card:hover {
-    opacity: .8;
-    transition: .3s all ease;
-    cursor: pointer;
+    /* opacity: .8; */
+    transition: 0.5s ease-in-out;
+    transform: scale(1.1);
 }
 
 /* end Product */
@@ -338,6 +335,7 @@ a {
     color: #8a8a8a;
 }
 
+
 /* end blog */
 
 /* footer */
@@ -361,7 +359,7 @@ a {
     color: var(--font-color);
 }
 
-.contact-desc {
+.contact-desc span {
     font-size: 18px;
     font-weight: 500;
     color: var(--font-color);
@@ -371,6 +369,11 @@ a {
     display: inline-block;
     margin-top: 5px;
     margin-left: 5px;
+}
+
+.contact-desc {
+    color: var(--font-color);
+    font-weight: 400;
 }
 
 .bg-pink {
